@@ -1,0 +1,279 @@
+/* line 17, ../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 66, icons/*.png */
+.icons-sprite, .icons-item-1, .icons-item-2, .icons-item-3, .icons-menu {
+  background: url('/img/icons-sbf0a45bf98.png') no-repeat;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-item-1 {
+  background-position: 0 -31px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-item-2 {
+  background-position: 0 0;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-item-3 {
+  background-position: 0 -62px;
+}
+
+/* line 60, ../../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-menu {
+  background-position: 0 -93px;
+}
+
+/* line 7, ../scss/style.scss */
+body {
+  background: #474750;
+  font: 14px/1.5em Helvetica, Arial, sans-serif;
+  margin: 50px 0;
+}
+
+/* line 14, ../scss/style.scss */
+::-webkit-input-placeholder {
+  color: #cecdd7;
+}
+
+/* line 18, ../scss/style.scss */
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #cecdd7;
+}
+
+/* line 22, ../scss/style.scss */
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #cecdd7;
+}
+
+/* line 26, ../scss/style.scss */
+:-ms-input-placeholder {
+  color: #cecdd7;
+}
+
+/* line 31, ../scss/style.scss */
+.mail {
+  background: white;
+  width: 622px;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row;
+  flex-flow: row;
+  border-radius: 3px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65), inset 0 1px 1px white;
+}
+
+/* line 44, ../scss/style.scss */
+.mail-col-nav {
+  border-radius: 3px 0 0 3px;
+  background: #5790e5;
+  -webkit-flex: 1 1 89px;
+  flex: 1 1 89px;
+  -webkit-order: 1;
+  order: 1;
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.15);
+}
+
+/* line 54, ../scss/style.scss */
+.mail-col-content {
+  padding: 20px 25px;
+  -webkit-flex: 1 1 483px;
+  flex: 1 1 483px;
+  -webkit-order: 2;
+  order: 2;
+  box-shadow: -1px 0 20px rgba(0, 0, 0, 0.25);
+}
+
+/* line 65, ../scss/style.scss */
+.mail-nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  box-shadow: inset 0 -1px 0 #6ca1f0;
+  text-align: center;
+  height: 31px;
+  padding: 18px 0;
+}
+/* line 75, ../scss/style.scss */
+.mail-nav a:hover [class^="icons-"], .mail-nav a.mail-nav-active [class^="icons-"] {
+  opacity: 0.5;
+}
+/* line 80, ../scss/style.scss */
+.mail-nav ul {
+  border-top: 1px solid #6ca1f0;
+}
+
+/* line 85, ../scss/style.scss */
+a.mail-nav-menu {
+  margin: 10px 0 36px;
+  box-shadow: none;
+  position: relative;
+}
+/* line 90, ../scss/style.scss */
+a.mail-nav-menu:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 65px;
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 5px solid white;
+}
+/* line 105, ../scss/style.scss */
+a.mail-nav-menu:hover:after, a.mail-nav-menu.mail-nav-active:after {
+  opacity: .5;
+}
+
+/* line 112, ../scss/style.scss */
+[class^="icons-"] {
+  display: inline-block;
+  width: 35px;
+  height: 31px;
+}
+
+/* line 119, ../scss/style.scss */
+.mail-searchbox {
+  color: #8b889a;
+  padding: 0 25px;
+  margin: 0 0 32px;
+  height: 44px;
+  border: 1px solid #e1e1e1;
+  font: 16px/1.5em "Montserrat", sans-serif;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.07);
+  border-radius: 44px;
+  display: block;
+  width: 100%;
+}
+/* line 131, ../scss/style.scss */
+.mail-searchbox:focus {
+  outline: none;
+}
+
+/* line 137, ../scss/style.scss */
+.mail-items {
+  height: 385px;
+  overflow-y: hidden;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, black), color-stop(75%, black), color-stop(100%, rgba(0, 0, 0, 0)));
+}
+
+/* line 143, ../scss/style.scss */
+.mail-item {
+  border-bottom: 1px solid #eeeeee;
+  padding: 16px 0 14px 0;
+  position: relative;
+  min-height: 69px;
+}
+
+/* line 150, ../scss/style.scss */
+.mail-item-avatar {
+  border-radius: 50%;
+  display: block;
+  float: left;
+}
+
+/* line 156, ../scss/style.scss */
+.mail-item-status {
+  position: absolute;
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: #cecdd7;
+  box-shadow: 0 0 0 4px white;
+  border-radius: 50%;
+  left: 55px;
+  top: 17px;
+}
+
+/* line 168, ../scss/style.scss */
+.mail-item-status-green {
+  background: #41ab1b;
+}
+
+/* line 171, ../scss/style.scss */
+.mail-item-status-orange {
+  background: #f16f29;
+}
+
+/* line 175, ../scss/style.scss */
+.mail-item-title {
+  color: #3d3b49;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 79px;
+}
+
+/* line 182, ../scss/style.scss */
+.mail-item-subject {
+  color: #8b889a;
+  margin-left: 79px;
+}
